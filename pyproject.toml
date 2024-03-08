@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "scripts"
+version = "0.1.0"
+description = "Some useful scripts"
+authors = ["Alex <alexander.corvus.777@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flake8 = "^7.0.0"
+flake8-docstrings = "^1.7.0"
+ipython = "^8.22.2"
+aiohttp = "^3.9.3"
+aiofiles = "^23.2.1"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
