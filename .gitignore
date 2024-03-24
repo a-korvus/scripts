@@ -141,3 +141,6 @@ dmypy.json
 # other
 .vscode/
 temp/
+
+db_volume/
+sql_db_volume/
